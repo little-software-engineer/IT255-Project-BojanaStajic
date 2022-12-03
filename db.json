@@ -1,0 +1,133 @@
+{
+  "restorani": [
+    {
+      "id": 1,
+      "naziv": "Planet Bojana Cancun",
+      "cenaStola": 7024,
+      "lokacija": "Cancun",
+      "drzava": "Meksiko",
+      "otvoreno": 2021,
+      "vlasnistvo": 0
+    },
+    {
+      "id": 2,
+      "naziv": "Planet Bojana Las Vegas",
+      "cenaStola": 7024,
+      "lokacija": "Las Vegas",
+      "drzava": "Nevada",
+      "otvoreno": 2022,
+      "vlasnistvo": 0
+    },
+    {
+      "id": 3,
+      "naziv": "Planet Bojana Paris",
+      "cenaStola": 7024,
+      "lokacija": "Paris",
+      "drzava": "Francuska",
+      "otvoreno": 2020,
+      "vlasnistvo": 0
+    },
+    {
+      "id": 4,
+      "naziv": "Planet Bojana New York",
+      "cenaStola": 7024,
+      "lokacija": "New York",
+      "drzava": "New York",
+      "otvoreno": 2021,
+      "vlasnistvo": 0
+    },
+    {
+      "id": 5,
+      "naziv": "Planet Bojana London",
+      "cenaStola": 7024,
+      "lokacija": "London",
+      "drzava": "Velika Britanija",
+      "otvoreno": 2022,
+      "vlasnistvo": 0
+    },
+    {
+      "id": 6,
+      "naziv": "Planet Bojana Sydney",
+      "cenaStola": 7024,
+      "lokacija": "Sydney",
+      "drzava": "Australija",
+      "otvoreno": 2022,
+      "vlasnistvo": 0
+    },
+    {
+      "id": 7,
+      "naziv": "Planet Hollywood Cuba",
+      "cenaStola": 7024,
+      "lokacija": "Havana",
+      "drzava": "Cuba",
+      "otvoreno": 2022,
+      "vlasnistvo": 0
+    },
+    {
+      "id": 8,
+      "naziv": "Planet Bojana Moscow",
+      "cenaStola": 7024,
+      "lokacija": "Moscow",
+      "drzava": "Russia",
+      "otvoreno": 2019,
+      "vlasnistvo": 0
+    },
+    {
+      "id": 9,
+      "naziv": "Planet Bojana Chicago",
+      "cenaStola": 4475,
+      "lokacija": "Chicago",
+      "drzava": "USA",
+      "otvoreno": 2021,
+      "vlasnistvo": 0
+    },
+    {
+      "id": 10,
+      "naziv": "Planet Hollywood Cuba",
+      "cenaStola": 457,
+      "lokacija": "Havana",
+      "drzava": "Cuba",
+      "otvoreno": 2021,
+      "vlasnistvo": 0
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "bojanaS",
+      "password": "bojana2001",
+      "ime": "Bojana",
+      "prezime": "Stajic",
+      "email": "bojanas01@gmail.com",
+      "admin": 1
+    },
+    {
+      "id": 2,
+      "username": "stexvel",
+      "password": "stefix240",
+      "ime": "Stefan",
+      "prezime": "Micunovic",
+      "email": "stefanv182@gmail.com",
+      "admin": 0
+    },
+    {
+      "id": 3,
+      "username": "nekoNesto2",
+      "password": "somebody1900",
+      "ime": "Zorica",
+      "prezime": "Subotic",
+      "email": "somebodyw14@gmail.com",
+      "admin": 0
+    },
+    {
+      "useid": 0,
+      "username": "miki23",
+      "password": "mikica42",
+      "ime": "Milovan",
+      "prezime": "Djuric",
+      "email": "miki42@gmail.com",
+      "admin": 0,
+      "id": 4
+    }
+  ]
+}
