@@ -1,13 +1,8 @@
 import { Restoran } from "./restoran";
 import { User } from "./user";
 
-export interface Order {
-    order_id: number;
+export interface Owned {
+    owned_id: number;
     user: User;
     restoran: Restoran;
-
-
-
 }
-
-
