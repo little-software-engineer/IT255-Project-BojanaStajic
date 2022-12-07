@@ -1,0 +1,31 @@
+<app-header></app-header>
+<div class="box">
+	<form #myForm="ngForm">
+		<h1>Dodajte restoran</h1>
+		<div class="textbox">
+			<i class="fa fa-info" aria-hidden="true"></i>
+			<input type="text" name="naziv" #brand placeholder="Naziv*" required [(ngModel)]="Restoran.naziv" />
+		</div>
+    <div class="textbox">
+			<i class="fa fa-credit-card" aria-hidden="true"></i>
+			<input type="number" name="cenaStola" placeholder="Cena*" required [(ngModel)]='Restoran.cenaStola' />
+		</div>
+		<div class="textbox">
+			<i class="fa fa-lokacija" aria-hidden="true"></i>
+			<input type="text" name="lokacija" placeholder="Lokacija*" required [(ngModel)]="Restoran.lokacija" />
+		</div>
+		<div class="textbox">
+			<i class="fa fa-restoran" aria-hidden="true"></i>
+			<input type="text" name="drzava" placeholder="Drzava*" required [(ngModel)]='Restoran.drzava' />
+		</div>
+		<div class="textbox">
+			<i class="fa fa-calendar" aria-hidden="true"></i>
+			<input type="number" name="year" placeholder="Otvoreno*" min="1900" max="2025" required
+				[(ngModel)]='Restoran.otvoreno' />
+		</div>
+
+		<input class="btn" (click)="addRestoran(Restoran)" type="submit" value="Prijavi">
+
+	</form>
+</div>
+<app-footer></app-footer>
