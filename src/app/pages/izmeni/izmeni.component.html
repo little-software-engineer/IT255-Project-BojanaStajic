@@ -1,0 +1,32 @@
+<app-header></app-header>
+<div class="box">
+  <h2 class="text-center">Izmena restorana</h2>
+  <form class="form" [formGroup]="editForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+          <label for="naziv">naziv:</label>
+          <input type="text" class="form-control" formControlName="naziv">
+      </div>
+      <div class="form-group">
+          <label for="cenaStola">cenaStola:</label>
+          <input type="text" class="form-control" id="cenaStola" formControlName="cenaStola">
+      </div>
+      <div class="form-group">
+          <label for="lokacija">lokacija:</label>
+          <input type="text" class="form-control" id="lokacija" formControlName="lokacija">
+      </div>
+      <div class="form-group">
+          <label for="drzava">drzava:</label>
+          <input type="text" class="form-control" id="drzava" formControlName="drzava">
+      </div>
+      <div class="form-group">
+        <label for="otvoreno">Otvoreno:</label>
+        <input type="text" class="form-control" id="otvoreno" formControlName="otvoreno">
+    </div>
+    <div class="form-group">
+      <label for="vlasnistvo">vlasnistvo:</label>
+      <input type="text" class="form-control" id="vlasnistvo" formControlName="vlasnistvo">
+  </div>
+      <button type="submit" class="btn btn-primary btn-large">Izmeni</button>
+  </form>
+</div>
+<app-footer></app-footer>
