@@ -1,0 +1,32 @@
+<app-header></app-header>
+
+<form>
+  <div class="podaciK">
+    <h2>Rezervacije</h2>
+    <h3>Rezervacije važe i do 90 dana pred događaj</h3>
+  </div>
+
+  <div class="product">
+    <ul>
+      <li>
+        <div class="product2">
+          <div class="slika"></div>
+          <h3>{{ restoran.naziv }}</h3>
+          <p class="postavio">
+            Datum rezervacije: {{ currentDate | date : "yyyy-MM-dd" }}
+          </p>
+          <br />
+          <p class="postavio">Cena stola: {{ restoran.cenaStola }} dinara</p>
+          <br />
+          <p class="postavio">
+            Ukupna cena Vaše rezervacije: {{ restoran.cenaStola }} dinara
+          </p>
+          <br /><br />
+
+          <p class="postavio">Vidimo se u: {{ restoran.lokacija }}!</p>
+          <br />
+        </div>
+      </li>
+    </ul>
+  </div>
+</form>
