@@ -1,0 +1,29 @@
+<app-header></app-header>
+
+<form>
+    <div class='podaciK'>
+        <h2>Podaci o restoranima</h2>
+    </div>
+
+    <div class='product' >
+        <ul>
+            <li>
+                <div class='product2'>
+                    <div class='slika'></div>
+                    <h3> {{restoran.naziv}}</h3>
+                    <p class='postavio'> Cena stola: {{restoran.cenaStola}} dinara</p><br>
+                    <p class='postavio'> Lokacija: {{restoran.lokacija}}</p><br>
+                    <p class='postavio'> Država: {{restoran.drzava}}</p><br>
+                    <p class='postavio'> Otvoreno: {{restoran.otvoreno}}</p><br>
+
+
+                     <div *ngIf="user.admin === 1" class = "dugmici">
+                    <button  class="btn btn-danger btn-large"  (click)="onDelete()">Delete</button>
+                     <button  class="btn btn-primary btn-large" (click)="onUpdate()">Update</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</form>
+
