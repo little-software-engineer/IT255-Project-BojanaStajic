@@ -1,0 +1,27 @@
+<app-header></app-header>
+<form>
+    <div class='raspolozivo'>
+        <h2>Raspolozivi restorani</h2>
+    </div>
+
+    <div class='opcije'>
+        <input *ngIf="user.admin === 1" class='dodaj' style="width:67%" [routerLink]="['/dodaj']" type='submit' value='Dodaj Restoran'>
+    </div>
+    <div style="text-align: center; margin-top: -2%; margin-bottom: 1%;">
+        <input [(ngModel)]="cenaStola" name="title" style="width:23%" class="pretrazi" placeholder="Enter price: *" />
+    </div>
+    <div class='product' *ngFor="let restoran of todoList">
+        <ul>
+            <li>
+                <div class='product2'>
+                    <h3> {{restoran.naziv}} </h3>
+                    <p class='postavio'>Cena stola: {{restoran.cenaStola}} dinara</p>
+                    <input class='pogledaj' [routerLink]="['/restorani', restoran.id]" type='submit' value='Pogledaj'>
+                    <button *ngIf="user.admin === 0" class="btn btn-primary" [routerLink]="['/orders', restoran.id]" type="sumbit" >Rezerviši</button>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+</form>
+<app-footer></app-footer>
