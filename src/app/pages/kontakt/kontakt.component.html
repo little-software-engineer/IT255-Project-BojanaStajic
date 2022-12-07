@@ -1,0 +1,39 @@
+<app-header></app-header>
+<div class='contact-box'>
+    <form action='includes/posaljiporuku.php' method='POST'>
+        <h1>Ostavite komentar</h1>
+        <div class='contact-textbox'>
+            <input type='text' name='tema' placeholder='Tema' required />
+        </div>
+        <div class='contact-textbox'>
+            <textarea type='textarea' rows='4' cols='50' name='poruka' placeholder='Ukucajte Vasu poruku'
+                required></textarea>
+        </div>
+        <input class='contact-btn' type='submit' value='Posalji' />
+    </form>
+</div>
+<div class="container">
+    <div class="box2">
+        <div class="icon">
+            <i class="fa fa-map-marker"></i>
+            <h4>Adress</h4>
+            <h3>London, 0789, United Kingdom</h3>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="icon">
+            <i class="fa fa-phone"></i>
+            <h4>Mobile</h4>
+            <h3>+75 63 55 274</h3>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="icon"><i class="fa fa-envelope"></i>
+            <h4>Email</h4>
+            <h3>planetbojana@gmail.com</h3>
+        </div>
+    </div>
+</div>
+<p id="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5424.646868474961!2d14.409379342834058!3d50.08455687747312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b939c0970798b%3A0x400af0f66164090!2sPrague%2C%20Czechia!5e0!3m2!1sen!2srs!4v1669221193807!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+<app-footer></app-footer>
