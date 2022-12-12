@@ -24,6 +24,7 @@ import { UserEffect } from './store/effects/user.effects';
 import { RestoranEffect } from './store/effects/restoran.effects';
 import { UserService } from './services/user.service';
 import { reducers } from './store/reducers';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { reducers } from './store/reducers';
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
+    NgImageSliderModule,
     EffectsModule.forRoot([UserEffect, RestoranEffect]),
     StoreModule.forRoot(reducers)
   ],
