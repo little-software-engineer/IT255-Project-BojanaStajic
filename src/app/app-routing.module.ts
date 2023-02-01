@@ -1,3 +1,4 @@
+import { ONamaComponent } from './o-nama/o-nama.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { PocetnaComponent } from './pages/pocetna/pocetna.component';
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path:'login', component:LoginComponent},
   {path:'registruj', component:RegistrujComponent},
   {path:'korisnici', component:KorisniciComponent},
+  {path:'onama', component:ONamaComponent},
   {path:'orders/:id', component:OrdersComponent}
 
 

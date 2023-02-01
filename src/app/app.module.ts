@@ -25,6 +25,7 @@ import { RestoranEffect } from './store/effects/restoran.effects';
 import { UserService } from './services/user.service';
 import { reducers } from './store/reducers';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { ONamaComponent } from './o-nama/o-nama.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { NgImageSliderModule } from 'ng-image-slider';
     LoginComponent,
     PocetnaComponent,
     RegistrujComponent,
-    FilterByUserPrice
+    FilterByUserPrice,
+    ONamaComponent
   ],
   imports: [
     BrowserModule,
